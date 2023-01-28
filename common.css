@@ -1,0 +1,134 @@
+/*font-family: 'Comfortaa', cursive;
+font-family: 'Cuprum', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Titan One', cursive;*/
+
+body{
+    margin: 0;
+    padding: 0;
+    /*background-color: #ffacc9;*/
+    /* background-color: rgb(226, 189, 238); */
+    /* background-color: rgb(238, 189, 213); */
+    /* background-color: rgb(255, 204, 229); */
+    /* background-color: rgb(252, 231, 188); */
+    /* background-color: rgb(250, 249, 185); */
+    /* background-color: #cefaef; */
+    /* background-color: #fbffd2; */
+    /* background-color: #ffeee1; */
+    background-color: #ffe9f1;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    /* position: relative;
+    padding-bottom: 100px; */
+}
+
+.header{
+    background: url('шапка5.png') repeat-x;
+    height: 60px;
+    padding: 15px 60px;
+
+}
+
+.hd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .menu{
+    height: 40px;
+    width: 40px;
+    background:rgb(248, 248, 248);
+
+} */
+
+.brand{
+    display: flex;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.brand p{
+    margin: 0px 0px;
+    margin-top: -10px;
+    padding: 0;
+    font-family: 'Titan One', cursive;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+}
+
+.nav{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.curr_page{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    color:#8255b6;
+    font-weight: bold;
+}
+
+.acc{
+    width: 40px;
+    height: 70px;
+} 
+
+.acc img{
+    width: 40px;
+}
+
+.bag{
+    margin-left: 30px;
+    width: 40px;
+    height: 70px;
+}
+
+.bag img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+.footer{
+    background: url('подвал.png') repeat-x;
+    height: 60px;
+    padding: 10px 60px;
+    
+    margin: 0;
+    margin-bottom: -10px;
+    /* position: absolute;
+    bottom: -10px; */
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.tel{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin:0px;
+}

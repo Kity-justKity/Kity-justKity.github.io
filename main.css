@@ -1,0 +1,129 @@
+
+/*font-family: 'Comfortaa', cursive;
+font-family: 'Cuprum', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Titan One', cursive;*/
+
+
+.offer{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.offer p{
+    width: 300px;
+    margin: 0px auto;
+}
+
+.slogan{
+    margin-top: 50px;
+    height: 200px;
+    background:rgb(226, 189, 238);
+}
+
+.preview{
+    margin-top: 35px;
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+.pr1, .pr2, .pr3{
+    height: 300px;
+    /* width: 790px; */
+    width: 100%;
+    margin: 30px auto;
+    /* background: rgb(185, 224, 215); */
+    /* background: #8ceccc; */
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 25px -5px #81777c;
+    /* border: 5px solid rgb(255, 255, 255); */
+    position: relative;
+} 
+.pr1{
+    background: #9dd49d;
+} 
+.pr2{
+    background: #9dc9d4;
+}
+.pr3{
+    background: #d49dbd;
+}
+
+
+.text{
+    width: 470px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.h{
+    font-size: 20px;
+    font-weight: bold;
+    color:#ffffff;
+}
+
+.preview p{
+    color:#ffffff;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.divide{
+    height: 5px;
+    width: 300px;
+    border-radius: 2px;
+    margin: 20px auto;
+    background: #ffffff;
+}
+
+.preimg1, .preimg2, .preimg3{
+    height: 280px;
+    width: 280px;
+    /* background: #c9bde2; */
+    /* background: #5adbb0; */
+    border-radius: 30px;
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 30px 5px #ffffff inset;
+    position: relative;
+}
+.preimg1{
+    background: rgb(169, 218, 173);
+} 
+.preimg2{
+    background: rgb(169, 204, 218);
+}
+.preimg3{
+    background: rgb(218, 169, 218);
+}
+
+.preview img{
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    z-index: 1;
+}
+
+.preview a{
+    display: block;
+    position: relative;
+    width: 220px;
+    height: 50px;
+    margin: 180px auto 30px;
+    z-index: 2;
+    border: 5px solid rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.preview a:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(185, 224, 215);
+}
+
