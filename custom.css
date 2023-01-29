@@ -1,0 +1,115 @@
+.custom{
+    width: 85%;
+    margin: 80px auto;
+}
+
+.custom-text{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px 35px;
+    margin-bottom: 50px;
+    
+}
+
+.custom-text h4{
+    font-weight: bold;
+    font-size: 20px;
+    color:#8255b6;
+}
+
+.custom-text p{
+    line-height: 1.5;
+}
+
+
+.custom-form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px 35px;
+}
+
+.custom-form legend{
+    font-weight: bold;
+    font-size: 20px;
+    color:#8255b6;
+}
+
+.custom-form p{
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0 10px;
+    width:fit-content;
+    font-size: 18px;
+    color:#8255b6;
+    margin-top: 40px;
+    border: 2px solid #b497f3;
+    border-radius: 20px;
+}
+
+fieldset{
+    padding: 30px;
+    border-radius: 20px;
+    border:  3px dashed #b497f3;
+}
+
+input, textarea{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.add-photo{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.custom-form span{
+    background-color: #b497f3;
+    margin-right: 10px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.finish{
+    height: 50px;
+    margin-top: 50px;
+    padding: 0 15px;
+    border: 5px solid #b497f3;
+    border-radius: 20px;
+    font: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    color:#8255b6;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.finish:hover{
+    color:#ffffff;
+    background-color:#b497f3;
+}
+
+/* .radio{
+    z-index: -1;
+    opacity: 0;
+}
+
+.radio:hover{
+
+}
+
+.checkbox{
+
+} */
