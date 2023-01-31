@@ -1,0 +1,26 @@
+.info{
+    width: 85%;
+    margin: 80px auto;
+}
+
+.info-text{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px 35px;
+    margin-bottom: 50px;
+    
+}
+
+.info-text h4{
+    font-weight: bold;
+    font-size: 20px;
+    color:#8255b6;
+}
+
+.info-text p{
+    line-height: 1.5;
+}
+
+li{
+    line-height: 1.5;
+}
